@@ -1,3 +1,57 @@
 .my-active  {
-   background-color: rgb(199, 0, 76);
+   background-color: rgb(190, 0, 0);
+} 
+.main {
+   position: relative;
+   margin-left: 320px;
+}
+.header {
+   margin: 0;
+   font-weight: bold;
+   color: rgb(32, 32, 32);
+}
+.header1 {
+   font-weight: bold;
+   padding-top: 5px;
+}
+.btn-floating {
+   position: absolute;
+   top: -20px;
+   left: 20px;
+   border-radius: 0;
+   width: 70px;
+   height: 70px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.my-card-content {
+   display: flex;
+   align-items: flex-end;
+   flex-direction: column;
+}
+.bold {
+   font-size: 30px;
+}
+.grey-text {
+   display: flex;
+   align-items: center;
+   height: 40px;
+}
+.card {
+   margin-top: 30px;
+}
+.sidenav-trigger {
+   color: black;
+   
+}
+
+@media(max-width:992px) {
+   .main {
+      position: relative;
+      margin-left: 30px;
+   }
+   .header {
+      margin-left: 60px;
+   }
 }

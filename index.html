@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,40 +10,112 @@
    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
    <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
-   <div class="sidenav">
-      <h3></h3>
-   </div>
 
-   <ul id="slide-out" class="sidenav">
-      <li><a href="#!"><h4>Company</h4></a></li>
-      <li><div class="divider"></div></li>
-      <li><a class="waves-effect my-active white-text" href="#!"><i class="material-icons white-text">dashboard</i>Dashboard</a></li>
-      <li><a class="waves-effect grey-text text-darken-2" href="#!"><i class="material-icons">person</i>User Profile</a></li>
-      <li><a class="waves-effect grey-text text-darken-2" href="#!" ><i class="material-icons">location_on</i>Maps</a></li>
-      <li><a class="waves-effect grey-text text-darken-2" href="#!" ><i class="material-icons">done_all</i>Notifications</a></li>
-      <li><a class="waves-effect grey-text text-darken-2" href="#!" ><i class="material-icons">language</i>Support</a></li>
-    </ul>
-    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+<body class="green lighten-4">
+
+   <ul id="slide-out" class="sidenav sidenav-fixed  green lighten-5">
+      <li>
+         <a href="#!">
+            <h4 class="header1">Company</h4>
+         </a>
+      </li>
+      <br>
+      <hr>
+      <br>
+      <li>
+         <div class="divider"></div>
+      </li>
+      <li><a class="waves-effect my-active white-text" href="#!"><i
+               class="material-icons white-text">dashboard</i>Dashboard</a></li>
+      <li><a class="waves-effect grey-text text-darken-2" href="#!"><i class="material-icons">person</i>User Profile</a>
+      </li>
+      <li><a class="waves-effect grey-text text-darken-2" href="#!"><i class="material-icons">location_on</i>Maps</a>
+      </li>
+      <li><a class="waves-effect grey-text text-darken-2" href="#!"><i
+               class="material-icons">done_all</i>Notifications</a></li>
+      <li><a class="waves-effect grey-text text-darken-2" href="#!"><i class="material-icons">language</i>Support</a>
+      </li>
+   </ul>
+   <a href="#" data-target="slide-out" class="sidenav-trigger black-text" style="padding-left: 50px;"><i class="material-icons ">menu</i></a>
+
+
+
+
+   <div class="main">
+      <h4 class="header">Dashboard</h4>
+      <br><br>
+      <div class="row">
+         <div class="col s12 m6 l6 xl3">
+            <div class="card horizontal green lighten-5">
+               <a class="btn-floating halfway-fab waves-effect waves-light green darken-3"><span class="iconify" data-icon="subway:coin" style="color: white;" data-width="40"></span></a>
       
+               <div class="card-stacked">
+                  <div class="card-content my-card-content">
+                     <p>Used Space</p>
+                     <p class="bold">49/50 GB</p>
+                  </div>
+                  <div class="card-action">
+                     <a href="#" class="grey-text ">  <i class="material-icons black-text" style="padding-right: 5px;">report_problem</i>Get more space...</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="col s12 m6 l6 xl3">
+            <div class="card horizontal green lighten-5">
+               <a class="btn-floating halfway-fab waves-effect waves-light yellow darken-3"><span class="iconify" data-icon="fa:home" style="color: white;" data-width="50"></span></a>
+      
+               <div class="card-stacked">
+                  <div class="card-content my-card-content">
+                     <p>Revenue</p>
+                     <p class="bold">$34,245</p>
+                  </div>
+                  <div class="card-action">
+                     <a href="#" class="grey-text "> <span class="iconify"  data-icon="bxs:calendar" style="color: rgb(0, 0, 0); margin-right: 5px;" data-width="23"></span>Last 24 Hours</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="col s12 m6 l6 xl3">
+            <div class="card horizontal green lighten-5">
+               <a class="btn-floating halfway-fab waves-effect waves-light blue darken-3"><span class="iconify" data-icon="clarity:tags-outline-badged" style="color: white;" data-width="50"></span></a>
+      
+               <div class="card-stacked">
+                  <div class="card-content my-card-content">
+                     <p>Fixed Issues</p>
+                     <p class="bold">75</p>
+                  </div>
+                  <div class="card-action">
+                     <a href="#" class="grey-text ">  <i class="material-icons black-text" style="padding-right: 5px;">file_download</i>Tracked from Github</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="col s12 m6 l6 xl3">
+            <div class="card horizontal green lighten-5">
+               <a class="btn-floating halfway-fab waves-effect waves-light pink darken-3"><span class="iconify" data-icon="fa-regular:paper-plane" style="color: white;" data-width="40"></span></a>
+      
+               <div class="card-stacked">
+                  <div class="card-content my-card-content">
+                     <p>Followers</p>
+                     <p class="bold">+245</p>
+                  </div>
+                  <div class="card-action">
+                     <a href="#" class="grey-text "> <i class="material-icons black-text" style="padding-right: 5px;">access_time</i>Just updated</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
 
-
-
-    <ul >
-      <li><a href="#!"><h4>Company</h4></a></li>
-      <li><div class="divider"></div></li>
-      <li><a class="waves-effect my-active white-text" href="#!">Dashboard</a></li>
-      <li><a class="waves-effect" href="#!">User Profile</a></li>
-      <li><a class="waves-effect" href="#!">Maps</a></li>
-      <li><a class="waves-effect" href="#!">Notifications</a></li>
-      <li><a class="waves-effect" href="#!">Support</a></li>
-    </ul>
+   </div>
 
 
 
 
 
    <script src="./js/script.js"></script>
+   <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
    <script src="./js/materialize.min.js"></script>
 </body>
+
 </html>
